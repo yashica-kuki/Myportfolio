@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+}
+
+/* navigation bar */
+.menuBox {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#menuBar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menuBar li {
+    margin: 0 15px;
+}
+
+#menuBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#menuBar a:hover {
+    color: yellow;
+}
+
+/* sections */
+section {
+    padding: 50px 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*  headings */
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: yellow;
+}
+
+/* contact section */
+#contact a {
+    color: yellow;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #menuBar {
+        flex-direction: column;
+    }
+    
+    #menuBar li {
+        margin: 10px 0;
+    }
+}
