@@ -26,7 +26,7 @@ To get a local copy up and running, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd "Myportfolio
+   cd "MyportfolioWebsite
 
 # Usage
 This Portfolio website can be used by anyone who's willing to create a simple personal portfolio by just replacing placeholder text and contact details.
