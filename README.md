@@ -1,5 +1,5 @@
 # My Portfolio Website
-This was my first time making a portfolio website using HTML and CSS with a modern UI. It might seem simple now, but it's my first portfolio website.
+Welcome to my personal portfolio website! This project showcases my skills, achievements, and projects in a modern, interactive design. 
 
 ## Table of Contents  
 1. [Features](#features)  
